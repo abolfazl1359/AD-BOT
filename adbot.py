@@ -33,7 +33,7 @@ DEFAULT_CONFIG = {
         "dj": {"x": 9.5, "y": 10.75, "z": 10.5}
     },
     "language": "fa",
-    "welcome_message": "✨ 🌟 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 {username} ❤️ 𝐆𝐥𝐚𝐝 𝐭𝐨 𝐡𝐚𝐯𝐞 𝐲𝐨𝐮 𝐡𝐞𝐫𝐞!\n🕺 𝐔𝐬𝐞 𝐍𝐮𝐦𝐛𝐞𝐫𝐬 (𝟏-𝟐𝟒𝟖) 𝐨𝐫 𝐄𝐦𝐨𝐭𝐞 𝐍𝐚𝐦𝐞𝐬 𝐭𝐨 𝐝𝐚𝐧𝐜𝐞!\n👑 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐰𝐚𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 & 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 @800.98 😉\n📺 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐨𝐮𝐫 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: @800.98 🚀",
+    "welcome_message": "<#FFD700>❤️ {username} ❤️<#00FF88>Welcome to this room to dance Type from <#FFD700>1<#00FF88> to<#FFD700> 250",
     "announcement_interval": 11,
     "announcement_message": "سلام به مزایده شمش خوش امدید امید وارم که لحظات خوبی را سپری کنید❤️دنس فلوس 222 و دنس رست 230!"
 }
