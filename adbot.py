@@ -35,7 +35,7 @@ DEFAULT_CONFIG = {
     "language": "fa",
     "welcome_message": "<#B8FFD8>❤️ {username} ❤️<#8FF7FF>خوش امدی داداشی امید وارم لحظات خوبی سپری کنی دنس ها از <#FFD700>1<#00FF88> to<#FFD700> 250",
     "announcement_interval": 11,
-    "announcement_message": "<#F5F3FF>❤️ سلام به مزایده شمش خوش امدید امید وارم که لحظات خوبی را سپری کنید❤️دنس فلوس 222 و دنس رست 230!"
+    "announcement_message": "<#F5F3FF>❤️ خوش امدین به هتل پسرونه امیدوارم لحظات خوشی را سپری کنید😀برای ادمین شدن به مالک پیام دهید😀براش مشکل های کوچک به ادمین ها پیام دهید برای مشکل های بزرگ به مال😀 فوش ممنوع❎️"
 }
 
 class AdvancedBot(BaseBot):
@@ -2713,7 +2713,7 @@ async def main():
     from http.server import BaseHTTPRequestHandler, HTTPServer
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
-    room_id = os.getenv("ROOM_ID", "697b2c0636e5c629a9e73e7a")
+    room_id = os.getenv("ROOM_ID", "6a28046d25932331e56231b1")
     api_token = os.getenv("API_TOKEN", "d07de3dffebd4be0af14c12a670e2a69b3f616f9321129df5ab87b2f044f2b15")
     
     if not room_id or not api_token:
