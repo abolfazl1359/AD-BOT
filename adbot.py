@@ -1465,7 +1465,7 @@ class AdvancedBot(BaseBot):
 
             for _ in range(count):
                 await self.highrise.chat(spam_message)
-                await sleep(1.0)
+                await sleep(0.1)
             logger.info(f"{count} پیام اسپم توسط {user.username} ارسال شد: {spam_message}")
             await self.highrise.chat(f"{count} پیام اسپم ارسال شد!")
         except Exception as e:
