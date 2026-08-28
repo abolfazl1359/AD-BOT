@@ -1188,18 +1188,6 @@ class AdvancedBot(BaseBot):
             await self.highrise.chat(f"خطا در تلپورت اولیه: {e}")
 
         await self.sync_room_users()
-        # Auto Dance
-async def bot_dance_loop():
-    try:
-        while True:
-            await self.highrise.send_emote("dance-floss", self.user_id)
-            await sleep(self.emote_durations.get("dance-floss", 11.0) + 1.0)
-    except CancelledError:
-        pass
-    except Exception as e:
-        logger.error(f"خطا در Auto Dance: {e}")
-
-self.bot_dance_task = create_task(bot_dance_loop())
         self.announcement_task = create_task(self.announcement_loop())
         self.score_update_task = create_task(self.score_update_loop())
 
