@@ -35,7 +35,7 @@ DEFAULT_CONFIG = {
     "language": "fa",
     "welcome_message": "<#B8FFD8>❤️ {username} ❤️<#8FF7FF>خوش امدی داداشی امید وارم لحظات خوبی سپری کنی دنس ها از <#FFD700>1<#00FF88> to<#FFD700> 250",
     "announcement_interval": 3,
-    "announcement_message": "<#F5F3FF>❤️ خوش امدین به هتل پسرونه امیدوارم لحظات خوشی را سپری کنید😀برای ادمین شدن به مالک پیام دهید😀براش مشکل های کوچک به ادمین ها پیام دهید برای مشکل های بزرگ به مال😀 فوش ممنوع❎️"
+    "announcement_message": "<#F5F3FF> ❤️خوش امدین به مزایده اسکول آباد امید وارم لحظات خوشی را سپری کنید ❤️ دنس 1 to 250 "
 }
 
 class AdvancedBot(BaseBot):
